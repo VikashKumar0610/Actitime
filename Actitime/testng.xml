@@ -1,0 +1,16 @@
+<suite name="Suite">
+<groups>
+<run>
+<include name="regressionTesting"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="com.actitime.testscript.CustomerModuleGroup"/>
+      <class name="com.actitime.testscript.ProjectModuleGroup"/>
+      
+      <class name="com.actitime.testscript.TaskModuleGroup"/>
+      
+    </classes>
+  </test> 
+</suite> 
