@@ -41,12 +41,10 @@ t.getSelectCustomerDropdown().click();
 	t.getOurCompany().click();
 	t.getAddProjectDescriptionText().sendKeys(projectDesc);
 	t.getCreateProjectButton().click();
-	try {
+	
 		String actual = t.getActualProjectCreated().getText();
       Assert.assertEquals(actual, projectname);
-	}
-	catch(Exception e) {
 	
-	}
+
 }
 }
